@@ -26,17 +26,27 @@
 //SHOWCASE SLIDER
 .carousel-item{
     height: 450px;
+
+    // .active{
+    //     animation-name: fade;
+    //     animation-duration:1.5s;
+    // }
+}
+// @keyframes fade{from{opacity: 0.1;}to{opacity:1;}}
+
+.carousel-image-1, .carousel-image-2, .carousel-image-3{
+    background-size: cover;
+    transition: all 0.5s ease;
 }
 
 .carousel-image-1{
     background: url('../img/image1.jpg');
-    background-size: cover;
 }
 .carousel-image-2{
     background: url('../img/image2.jpg');
-    background-size: cover;
 }
 .carousel-image-3{
     background: url('../img/image3.jpg');
-    background-size: cover;
 }
+
+// HOME ICON SECTION

@@ -26,3 +26,11 @@ $('body').scrollspy({target: '#main-nav'});
     });
   }
 })
+
+// carousel
+$('.carousel').carousel({
+  interval: 2000,
+  // keyboard: true,
+  // pause: 'hover',
+  // wrap: true,
+})

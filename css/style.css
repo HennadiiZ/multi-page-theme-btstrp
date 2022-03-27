@@ -12,17 +12,20 @@
   height: 450px;
 }
 
+.carousel-image-1, .carousel-image-2, .carousel-image-3 {
+  background-size: cover;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .carousel-image-1 {
   background: url("../img/image1.jpg");
-  background-size: cover;
 }
 
 .carousel-image-2 {
   background: url("../img/image2.jpg");
-  background-size: cover;
 }
 
 .carousel-image-3 {
   background: url("../img/image3.jpg");
-  background-size: cover;
 }
