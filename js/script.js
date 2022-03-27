@@ -62,3 +62,10 @@ $(function() {
 //     });
 //   });
 // });
+
+
+// PHOTO GALLERY + LIGHT BOX 
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
