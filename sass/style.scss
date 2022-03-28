@@ -5,7 +5,22 @@
 
 body{
     //margin-top: 105px;
-    overflow-x: hidden;
+
+    // min-height: 100%;
+    // overflow-x: hidden;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.wrapper{
+    // min-height: 100%;
+    // overflow-x: hidden;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.content-main{
+    // flex: 1 1 auto;
 }
 
 //  NAVBAR
@@ -103,3 +118,6 @@ body{
 // NEWSLETTER
 
 // FOOTER
+.main-footer{
+   
+}
