@@ -3,7 +3,7 @@ body {
 }
 
 .navbar .nav-link {
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
@@ -90,10 +90,6 @@ body {
 @media (max-width: 768px) {
   .card-mb {
     margin-bottom: 10px;
-  }
-
-  .card-mt-remove {
-    margin-top: -15px;
   }
 }
 @media (max-width: 996px) {
