@@ -133,6 +133,19 @@ body{
     margin-top: -50px;
 }
 
+// ICON BOXES
+
+
+@media (max-width: 768px) { //fx ipad mini + 967px
+   .card-mb{
+       margin-bottom: 10px;
+   }
+   .card-mt-remove{
+       margin-top: -15px;
+   }
+}
+
+
 @media (max-width: 996px) {
     .about-img{
         width: 350px;
