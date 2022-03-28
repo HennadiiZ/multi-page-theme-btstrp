@@ -72,14 +72,6 @@ body{
     // background-repeat: no-repeat;
     text-align: center;
     color: #fff;
-    .dark-overlay{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-    }
 }
 
 // INFO SECTION
@@ -113,6 +105,37 @@ body{
 // NEWSLETTER
 
 // FOOTER
-.main-footer{
-   
+
+// PAGE HEADER
+#page-header{
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+    padding-top: 50px;
+    .dark-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+// ABOUT SECTION
+.about-img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+@media (max-width: 996px) {
+    .about-img{
+        width: 350px;
+        height: 350px;
+    }
 }
