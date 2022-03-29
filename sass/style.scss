@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .wrapper{
     // min-height: 100%;
     // overflow-x: hidden;
@@ -48,16 +49,19 @@ body{
 .carousel-image-1, .carousel-image-2, .carousel-image-3{
     background-size: cover;
     transition: all 0.5s ease;
+    text-shadow: 1px 1px 1px black;
 }
 
 .carousel-image-1{
-    background: url('../img/image1.jpg');
+    // background: url('../img/image1.jpg');
+    background: url('../img/pic11.jpeg') ;
 }
 .carousel-image-2{
-    background: url('../img/image2.jpg');
+    // background: url('../img/image2.jpg');
+    background: url('../img/pic22.jpeg') ;
 }
 .carousel-image-3{
-    background: url('../img/image3.jpg');
+    background: url('../img/pic33.png');
 }
 
 // HOME ICON SECTION
@@ -66,7 +70,8 @@ body{
 #home-heading{
     position: relative;
     min-height: 200px;
-    background: url('../img/lights.jpg') fixed no-repeat;
+    background: url('../img/m.jpg') fixed no-repeat;
+    // background: url('../img/lights.jpg') fixed no-repeat;
     // background: url('../img/lights.jpg');
     // background-attachment: fixed;
     // background-repeat: no-repeat;
@@ -80,7 +85,8 @@ body{
 #video-play{
     position: relative;
     min-height: 200px;
-    background: url('../img/media.jpg') fixed no-repeat;
+    background: url('../img/lights.jpg') fixed no-repeat;
+    // background: url('../img/m.jpg') fixed no-repeat;
     background-position: 0 -300px;
     text-align: center;
     color: #fff;
@@ -108,8 +114,9 @@ body{
 
 // PAGE HEADER
 #page-header{
-    height: 200px;
-    background: url('../img/image1.jpg');
+    min-height: 200px;
+    // background: url('../img/image1.jpg');
+    background: url('../img/pic33.png');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: #fff;
